@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31194" started-at="2020-09-29T16:46:10Z" finished-at="2020-09-29T16:46:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31194" started-at="2020-09-29T16:46:10Z" finished-at="2020-09-29T16:46:42Z">
+      <class name="WebScrapTest">
+        <test-method status="PASS" signature="connectMongoDB()[pri:0, instance:WebScrapTest@5622fdf]" name="connectMongoDB" is-config="true" duration-ms="205" started-at="2020-09-29T16:46:10Z" finished-at="2020-09-29T16:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectMongoDB -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebScrapTest@5622fdf]" name="setUp" is-config="true" duration-ms="1944" started-at="2020-09-29T16:46:10Z" finished-at="2020-09-29T16:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="webScrapeTest(java.lang.String)[pri:0, instance:WebScrapTest@5622fdf]" name="webScrapeTest" duration-ms="7284" started-at="2020-09-29T16:46:12Z" data-provider="getWebData" finished-at="2020-09-29T16:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapeTest -->
+        <test-method status="PASS" signature="webScrapeTest(java.lang.String)[pri:0, instance:WebScrapTest@5622fdf]" name="webScrapeTest" duration-ms="4990" started-at="2020-09-29T16:46:20Z" data-provider="getWebData" finished-at="2020-09-29T16:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapeTest -->
+        <test-method status="PASS" signature="webScrapeTest(java.lang.String)[pri:0, instance:WebScrapTest@5622fdf]" name="webScrapeTest" duration-ms="16806" started-at="2020-09-29T16:46:25Z" data-provider="getWebData" finished-at="2020-09-29T16:46:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.snapdeal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebScrapTest@5622fdf]" name="tearDown" is-config="true" duration-ms="144" started-at="2020-09-29T16:46:41Z" finished-at="2020-09-29T16:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebScrapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
