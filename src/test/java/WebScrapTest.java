@@ -12,6 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.mongodb.client.MongoClient;
@@ -19,8 +20,10 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
+import TestListeners.MongoListener;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Listeners(MongoListener.class)
 public class WebScrapTest {
 
 	WebDriver driver;
